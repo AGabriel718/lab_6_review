@@ -5,8 +5,9 @@ void setup(){
 
 
 void draw(){
-  fill(255);
+  
   for (int i=0; i<5; i++) {
-    rect(width/2, height/2, 40, 40);
+    fill(0, 35 * i, 0);
+    rect(width/2 + i * 20, height/2 - i * 20, 40, 40);
   }
 }
